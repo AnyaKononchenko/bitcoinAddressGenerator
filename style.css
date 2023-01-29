@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.wrapper{
+    width: 50%;
+    margin: auto;
+}
+header{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1% 0;
+    font-family: "Bookman Old Style", serif;
+    border-bottom: 2px solid silver;
+}
+.element-header{
+    font-size: 1.3em;
+    line-height: 2em;
+    font-family: monospace;
+    color: darkblue;
+}
+.element-wrapper p{
+    word-break: break-all;
+
+}
+
+.payAttention{
+    border: 1px solid red;
+    line-height: 2rem;
+}
+
+.button-wrapper{
+    margin-top: 1rem;
+    height: 2rem;
+}
+
+#generate{
+    color: darkblue;
+    background-color: #b9dbe3;
+    text-align: center;
+    line-height: 2rem;
+    font-family: "Bookman Old Style", serif;
+    font-size: 1.1em;
+}
+
+#generate:hover{
+    cursor: pointer;
+    background-color: #35768a;
+    color: white;
+}

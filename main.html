@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Address</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <header>Generate bitcoin address</header>
+    <div class="element-wrapper"><p class = "element-header">Binary private key:</p><p id="binaryPrivateKey"></p></div>
+    <div class="element-wrapper"><p class = "element-header">Hex private key:</p><p id="hexPrivateKey"></p></div>
+    <div class="element-wrapper"><p class = "element-header">Generated public key:</p><p id="publicKey"></p></div>
+    <div class="element-wrapper"><p class = "element-header">Generated address:</p><p id="addr"></p></div>
+    <div class="element-wrapper"><p class = "element-header">Generated compressed public key:</p><p id="publicKeyCompr"></p></div>
+    <div class="element-wrapper"><p class = "element-header">Generated compressed address:</p><p id="addrCompr"></p></div>
+    <div class="button-wrapper"><div id = 'generate'>Generate</div></div>
+</div>
+
+<script src='bitcoinJS-lib.js'></script>
+<script src='main.js'></script>
+</body>
+</html>
